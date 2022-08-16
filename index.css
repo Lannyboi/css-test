@@ -1,5 +1,5 @@
 body {
-    min-width: 250px;
+    min-width: 300px;
     font-family: 'Open Sans', sans-serif;
     margin: 0px;
 }
@@ -48,10 +48,12 @@ img {
     height: 200px;
 }
 
-.ad-text {
-    margin: 0px 40px;
-    margin-bottom: 40px;
+.text {
+    text-align: left;
+    margin: 0px 20px;
+    width: 100%;
 }
+
 
 @media (min-width: 700px) {
     body {
@@ -62,5 +64,18 @@ img {
 @media (min-width: 1000px) {
     body {
         font-size: 1.4em;
+    }
+}
+
+@media (max-width: 375px) {
+    body {
+        font-size: 0.8em;
+    }
+
+    img {
+        border-radius: 10px;
+        border: 5px solid rgb(255, 163, 163);
+        width: 250px;
+        height: 150px;
     }
 }
