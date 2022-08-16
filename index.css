@@ -50,10 +50,13 @@ img {
 
 .text {
     margin: 0px 30px;
-    margin-bottom: 40px;
     text-align: left;
     display: flex;
     justify-content: center;
+}
+
+.text > p {
+    margin-bottom: 40px;
 }
 
 
