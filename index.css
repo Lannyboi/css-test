@@ -1,0 +1,36 @@
+body {
+    min-width: 250px;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+}
+
+h1, h2, h3, p {
+    margin: 0px;
+}
+
+header {
+    text-align: center;
+    padding: 2em;
+    background-image: url("images/rug.png");
+    background-size: 200%;
+    background-repeat: no-repeat;
+    background-size: center center;
+}
+
+.hero {
+    margin: 50px;
+}
+
+.contact-info {
+    margin-bottom: 50px;
+}
+
+.contact-info > h2, .services > h2 {
+    text-decoration: underline;
+    margin-bottom: 5px;
+}
+
+.service-imgs > img {
+    border-radius: 10px;
+    object-fit: contain;
+}
