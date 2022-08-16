@@ -49,9 +49,10 @@ img {
 }
 
 .text {
+    margin: 0px 30px;
     text-align: left;
-    width: 80%;
-    margin: 0px auto;
+    display: flex;
+    justify-content: center;
 }
 
 
