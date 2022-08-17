@@ -49,6 +49,7 @@ img {
 }
 
 .text {
+    flex-direction: column;
     display: flex;
     justify-content: center;
 }
@@ -58,6 +59,16 @@ img {
     margin-bottom: 40px;
 }
 
+.bold {
+    text-decoration: underline rgb(255, 163, 163);;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    margin-bottom: 40px;
+}
 
 @media (min-width: 700px) {
     body {
